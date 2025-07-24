@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Duniya</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body style="background-color: whitesmoke;">
+
+    <!-- Main Container -->
+    <div class="main-container">
+
+
+        <!-- Navigation Bar -->
+        <div id="nav">
+
+            <!-- Navigation Bar Logo -->
+            <div id="nav1">
+                <i class="ri-menu-line"></i>
+                <h1 style="color: white; font-size: 30px;">Developer<span
+                        style="color: lightpink; font-size: 30px;">.Duniya</span></h1>
+            </div>
+
+            <!-- Navigation Bar Menu -->
+            <div id="nav2">
+                <a href="#home">Home</a>
+                <a href="#resources">Resources</a>
+                <a href="#booklist">Book List</a>
+                <a href="#about">About</a>
+                <button id="btn1">Theme</button>
+                <a id="btn2" href="#register">Register</a>
+            </div>
+
+        </div>
+
+
+        <!-- Home Section -->
+        <section id="home">
+            <h1 id="one-line">Hey Welcome! <br> <span class="span-line">Developers</span> <br> In Your <br> <span
+                    class="span-line">Duniya</span> </h1>
+            <img src="image/background image.jpg" alt="computer image">
+        </section>
+
+        <h1 id="resources-h1">Free Resources</h1>
+        <section id="resources">
+            <a href="./resource1.html">
+                <img class="resouce-img" src="image/html.jpg" alt="">
+            </a>
+            <a href="./resource2.html">
+                <img class="resouce-img" src="image/css.jpg" alt="">
+            </a>
+            <a href="./resource3.html">
+                <img class="resouce-img" src="image/js.jpg" alt="">
+            </a>
+        </section>
+
+        <!-- Courses Section -->
+         <section id="booklist">
+        <div id="book-Title" class="bg-indigo-100">
+            <h1>Book List</h1>
+            <div id="book-list"></div>
+        </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 id="about-heading">About Developer Duniya</h2>
+            <p class=" m-20">Developer Duniya is a community dedicated to providing free and affordable programming courses to help individuals and businesses grow their skills and build their careers. We believe that everyone deserves access to quality education, and this platform is dedicated to making that happen.
+                <br>
+            We believe in fostering a culture of learning and growth, and we're dedicated to providing our students with the tools they need to succeed in their careers. Our mission is to empower individuals to become world-class developers, and we strive to make learning accessible and affordable for everyone.</p>
+            <div id="about-social-media">
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-github-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+                <a href="#"><i class="ri-facebook-box-line"></i></a>
+                <a href="#"><i class="ri-linkedin-box-line"></i></a>
+            </div>
+        </section>
+
+
+        <!-- From Section -->
+        <section id="register">
+            <h2 id="register-heading">User Registration</h2>
+            <form id="userFrom">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <small id="nameError" class="error"></small>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <small id="emailError" class="error"></small>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="8">
+                <small id="passwordError" class="error"></small>
+
+                <button id="btn3" type="submit">Register</button>
+            </form>
+        </section>
+
+
+        <!-- Footer Section -->
+        <footer>
+            <h3>copyright@2025</h3>
+        </footer>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
