@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/hp/Desktop/test"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../React-Project"
+		},
+		{
+			"path": "../../React"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Documents"
+	}
+}
